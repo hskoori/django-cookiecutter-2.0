@@ -255,6 +255,7 @@ def remove_dotgitlabciyml_file():
 
 def remove_dotgithub_folder():
     shutil.rmtree(".github")
+    shutil.rmtree(".hashid")
 
 
 def remove_dotdrone_file():
